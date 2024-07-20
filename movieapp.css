@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#app-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    color: #e62429; /* Marvel Red */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0056b3; /* Marvel Blue */
+}
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+button[type="submit"] {
+    background-color: #e62429; /* Marvel Red */
+    color: #fff;
+}
+.entry {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+.entry button {
+    background-color: #e62429; /* Marvel Red */
+    color: #fff;
+}
+.sort-buttons button {
+    background-color: #0056b3; /* Marvel Blue */
+    color: #fff;
+}
